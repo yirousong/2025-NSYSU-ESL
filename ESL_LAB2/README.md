@@ -6,13 +6,12 @@
   
 * exercise4: RGB to YUV
   - version1:
-    $$
-    \begin{aligned}
-    Y &= 0.299R + 0.587G + 0.114B \\
-    U &= -0.169R - 0.331G + 0.5B + 128 \\
-    V &= 0.5R - 0.419G - 0.081B + 128
-    \end{aligned}
-    $$
+    ```math
+    Y = 0.299R + 0.587G + 0.114B <br>
+    U = -0.169R - 0.331G + 0.5B + 128 <br>
+    V = 0.5R - 0.419G - 0.081B + 128
+    ```
+
 
   - version2:
   - version3:
